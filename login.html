@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <title>Alura Geek Store</title>
+</head>
+<body>
+    <header class="header__container">
+        <div class="logo__img">
+            <a href="index.html" target="_self"><img src="assets/logo.png" alt="logo da alura geek"></a>
+        </div>
+        <div class="search__container">
+            <input class="input__search" type="search" placeholder="O que deseja encontrar?"
+            onkeyup="search()">
+           <a href="#" class="search__btn" onclick="pesquisa()">
+            <img src="assets/lupa.png" alt="lupa" height="20" width="20">
+           </a>
+        </div>
+</header>
+
+    <main class="login__container">
+        <div class="login__titulo">
+            <h3>Iniciar Sessão</h3>
+        </div>
+        <div class="login__input">
+            <input type="email" name="email" id="email" required placeholder="Escreva seu e-mail: adm@adm.com">
+            <input type="password" name="password" id="password" required placeholder="Digitar sua senha: adm" maxlength="8">
+        </div>
+        <div class="login__button">
+            <a href="add_produto.html" target="_self" rel="">
+            <button type="submit">Entrar</button>
+             </a>
+        </div>
+    </main>
+
+    <footer class="footer__container">
+        <section class="footer">
+            <div class="logo__alura__footer">
+                <img src="assets/logo.png" alt="logo_alura">
+            </div>
+            <div class="menu__footer">                
+                <a href="">Quem Somos Nós</a>                    
+                <a href="">Política de Privacidade</a>                    
+                <a href="">Programa de Fidelidade</a>                    
+                <a href="">Nossas Lojas</a>
+                <a href="">Quero Ser Franqueado</a>                    
+                <a href="">Anuncie Aqui</a>                     
+            </div>
+            <div class="form__footer">
+                <p>Fale Conosco</p>
+                <div class="input__footer">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>                
+                </div>   
+                    <label for="mensage">Mensagem</label>             
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="escreva a sua mensagem" maxlength="200" required></textarea>
+                <div class="button__footer">
+                    <button type="submit">Enviar Mensagem</button>
+                </div>                
+            </div>
+        </section>
+        <div class="by__footer">
+            <p>Desenvolvido por Sérgio Imai - 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

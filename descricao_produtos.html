@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/add_produto.css">
+    <link rel="stylesheet" href="/css/descricao.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <title>Alura Geek Store</title>
+</head>
+<body>
+    <header class="header__container">
+        <div class="logo__img">
+            <a href="index.html" target="_self"><img src="assets/logo.png" alt="logo da alura geek"></a>
+        </div>
+        <div class="search__container">
+            <input class="input__search" type="search" placeholder="O que deseja encontrar?"
+            onkeyup="search()">
+           <a href="#" class="search__btn" onclick="pesquisa()">
+            <img src="assets/lupa.png" alt="lupa" height="20" width="20">
+           </a>
+        </div>
+        <div class="login__container">
+            <a href="login.html" target="_self">
+                <button type="submit">Login</button>
+            </a>            
+        </div>
+    </header>
+
+    <main class="descricaoProduto__container">
+        <section class="descricao__titulo">
+            <div class="descricaoProduto__titulo">
+                <h1>Descrição do Produto</h1>
+            </div>
+        </section>
+        <section class="info__descricaoProduto">
+            <div class="descricaoProduto__info">
+                <h2>Produto STAR WARS</h2>
+                <p class="preco__p">R$ 99,99</p>
+                <p class="descricao__p">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, 
+					facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. 
+					Quisque deleniti proin expedita, aliquid litora. 
+					Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. 
+					Animi porta anim magnam</p>
+            </div>    
+        
+            <div class="descricaoProduto__imagem">
+                <img src="/assets/starwars_2.png" alt="">
+            </div>
+        </section>    
+
+        <section class="similares__container">
+            <div class="similares__titulo">
+                <h2>Produtos Similares</h2>
+            </div>
+            <div class="produtos">
+                <div class="produtos__info">
+                    <img src="assets/starwars_1.png" alt="starwars_1">
+                    <p class="produto__nome">Produto STAR WARS</p>
+                    <p class="produto__preco">R$ 99,99</p>
+                    <a href="">VER PRODUTO</a>
+                </div>   
+                <div class="produtos__info">
+                    <img src="assets/starwars_2.png" alt="starwars_2">
+                    <p class="produto__nome">Produto STAR WARS</p>
+                    <p class="produto__preco">R$ 99,99</p>
+                    <a href="">VER PRODUTO</a>
+                </div> 
+                <div class="produtos__info">
+                    <img src="assets/starwars_3.png" alt="starwars_3">
+                    <p class="produto__nome">Produto STAR WARS</p>
+                    <p class="produto__preco">R$ 99,99</p>
+                    <a href="">VER PRODUTO</a>
+                </div>      
+                <div class="produtos__info">
+                    <img src="assets/starwars_4.png" alt="starwars_4">
+                    <p class="produto__nome">Produto STAR WARS</p>
+                    <p class="produto__preco">R$ 99,99</p>
+                    <a href="">VER PRODUTO</a>
+                </div>  
+                <div class="produtos__info">
+                    <img src="assets/starwars_5.png" alt="starwars_5">
+                    <p class="produto__nome">Produto STAR WARS</p>
+                    <p class="produto__preco">R$ 99,99</p>
+                    <a href="">VER PRODUTO</a>
+                </div>     
+                <div class="produtos__info">
+                    <img src="assets/starwars_6.png" alt="starwars_6">
+                    <p class="produto__nome">Produto STAR WARS</p>
+                    <p class="produto__preco">R$ 99,99</p>
+                    <a href="">VER PRODUTO</a>
+                </div>  
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer__container">
+        <section class="footer">
+            <div class="logo__alura__footer">
+                <img src="assets/logo.png" alt="logo_alura">
+            </div>
+            
+            <div class="menu__footer">                
+                <a href="">Quem Somos Nós</a>                    
+                <a href="">Política de Privacidade</a>                    
+                <a href="">Programa de Fidelidade</a>                    
+                <a href="">Nossas Lojas</a>
+                <a href="">Quero Ser Franqueado</a>                    
+                <a href="">Anuncie Aqui</a>                     
+            </div>
+            <div class="form__footer">
+                <p>Fale Conosco</p>
+                <div class="input__footer">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>                
+                </div>   
+                    <label for="mensage">Mensagem</label>             
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="escreva a sua mensagem" maxlength="200" required></textarea>
+                <div class="button__footer">
+                    <button type="submit">Enviar Mensagem</button>
+                </div>                
+            </div>
+        </section>
+        <div class="by__footer">
+            <p>Desenvolvido por Sérgio Imai - 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

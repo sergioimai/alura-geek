@@ -1,0 +1,75 @@
+main.novoProduto__container{
+    background-color: var(--bg-main);
+}
+
+section.input{
+    display: flex;
+    justify-content: center;
+    padding: 20px;   
+}
+
+div.novoProduto__titulo h3{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--txt-color);
+    padding: 10px;
+}
+div.novoProduto__input button{
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 50px;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    background-color: var(--link-color);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bg-color);
+    border: 0;
+    cursor: pointer;
+}
+
+div.novoProduto__input button:hover{
+    background-color: var(--txt-color);
+}
+
+div.novoProduto__input select{
+    width: 550px;
+    height: 30px;
+}
+
+div.novoProduto__input input{
+    display: flex;    
+    flex-direction: column;    
+    width: 550px;
+    height: 30px;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+div.novoProduto__input textarea{
+    width: 550px;
+    resize: none;
+}
+
+section.button{
+    display: flex;
+    justify-content: center;
+}
+
+div.novoProduto__button button{
+    width: 550px;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: var(--link-color);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--bg-color);
+    border: 0;
+    cursor: pointer;
+}
+
+div.novoProduto__button button:hover{
+    background-color: var(--txt-color);
+}

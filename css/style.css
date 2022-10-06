@@ -98,7 +98,7 @@ div.login__container button:hover{
 
 section.section__banner{
     height: 352px;
-    background-image: url(./assets/banner-image.png);
+    background-image: url("./assets/banner-image.png");
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 60px 0 0;
